@@ -97,21 +97,22 @@ header > h1 {
 }
 
 
+@media(max-width: 738px){
+	#result{
+		font-size: 1rem;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	.escolhas {
+		margin-top: 2rem;
+		display: grid;
+		grid-template-columns: repeat(3, 7rem);
+		grid-template-rows: 5rem;
+		justify-content: center;
+		transform: 0.4s ease;	
+	}
+	.escolhaUmaOpcao {
+		font-size: 2rem;
+		margin-top: 1.5rem;
+	}
+	
+}
